@@ -19,7 +19,7 @@ test('Website', function(assert) {
     assert.equal(currentURL(), '', 'Loads');
     assert.equal(find('#title').length, 1, 'With title');
     assert.equal(find('#title').text(), 'Welcome to EmberShop', 'Welcomes user to EmberShop');
-    assert.equal(find('li').length, 13, 'With 13 products');
+    assert.equal(find('li').length, 13, 'Shows 13 products');
     // assert.equal(find('').length, 11, 'With a shopping cart');
   });
 });

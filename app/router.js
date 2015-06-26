@@ -7,7 +7,6 @@ var Router = Ember.Router.extend({
 
 Router.map(function() {
   this.resource('products', {path: '/'});
-  this.route('products');
 });
 
 export default Router;
