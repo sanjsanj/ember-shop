@@ -1,5 +1,5 @@
 products template
 
 {{#each product in model}}
-  <li>{{product.name}}</li>
+  <li>{{product.name}} {{product.category}} £{{product.price}} {{product.stock}}</li>
 {{/each}}

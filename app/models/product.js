@@ -8,7 +8,7 @@ export default DS.Model.extend({
   stock: DS.attr('number')
 }).reopenClass({
   FIXTURES: [
-    {
+      {
         id: 1,
         name: 'Almond Toe Court Shoes, Patent Black',
         category: 'Women\'s Footwear',
