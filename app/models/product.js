@@ -24,7 +24,7 @@ export default DS.Model.extend({
         id: 2,
         name: 'Suede Shoes, Blue',
         category: 'Women\'s Footwear',
-        image: 'http://i01.i.aliimg.com/wsphoto/v0/32263007367_1/casual-dress-women-winter-party-dresses-2015-woman-clothes-Blue-Polka-Dot-waist-tight-dress-cheap.jpg_50x50.jpg',
+        image: 'images/img50x50.jpg',
         price: 42.00,
         stock: 4
       },
@@ -32,7 +32,7 @@ export default DS.Model.extend({
         id: 3,
         name: 'Leather Driver Saddle Loafers, Tan',
         category: 'Men\'s Footwear',
-        image: '',
+        image: 'images/img50x50.jpg',
         price: 34.00,
         stock: 12
       },
@@ -40,7 +40,7 @@ export default DS.Model.extend({
         id: 4,
         name: 'Flip Flops, Red',
         category: 'Men\'s Footwear',
-        image: '',
+        image: 'images/img50x50.jpg',
         price: 19.00,
         stock: 6
       },
@@ -48,7 +48,7 @@ export default DS.Model.extend({
         id: 5,
         name: 'Flip Flops, Blue',
         category: 'Men\'s Footwear',
-        image: '',
+        image: 'images/img50x50.jpg',
         price: 19.00,
         stock: 0
       },
@@ -56,7 +56,7 @@ export default DS.Model.extend({
         id: 6,
         name: 'Gold Button Cardigan, Black',
         category: 'Women\'s Casualwear',
-        image: '',
+        image: 'images/img50x50.jpg',
         price: 167.00,
         stock: 6
       },
@@ -64,7 +64,7 @@ export default DS.Model.extend({
         id: 7,
         name: 'Cotton Shorts, Medium Red',
         category: 'Women\'s Casualwear',
-        image: '',
+        image: 'images/img50x50.jpg',
         price: 30.00,
         stock: 5
       },
@@ -72,7 +72,7 @@ export default DS.Model.extend({
         id: 8,
         name: 'Fine Stripe Short Sleeve Shirt, Grey',
         category: 'Men\'s Casualwear',
-        image: '',
+        image: 'images/img50x50.jpg',
         price: 49.99,
         stock: 9
       },
@@ -80,7 +80,7 @@ export default DS.Model.extend({
         id: 9,
         name: 'Fine Stripe Short Sleeve Shirt, Green',
         category: 'Men\'s Casualwear',
-        image: '',
+        image: 'images/img50x50.jpg',
         price: 39.99,
         stock: 3
       },
@@ -88,7 +88,7 @@ export default DS.Model.extend({
         id: 10,
         name: 'Sharkskin Waistcoat, Charcoal',
         category: 'Men\'s Formalwear',
-        image: '',
+        image: 'images/img50x50.jpg',
         price: 75.00,
         stock: 2
       },
@@ -96,7 +96,7 @@ export default DS.Model.extend({
         id: 11,
         name: 'Lightweight Patch Pocket Blazer, Deer',
         category: 'Men\'s Formalwear',
-        image: '',
+        image: 'images/img50x50.jpg',
         price: 175.00,
         stock: 1
       },
@@ -104,7 +104,7 @@ export default DS.Model.extend({
         id: 12,
         name: 'Bird Print Dress, Black',
         category: 'Women\'s Formalwear',
-        image: '',
+        image: 'images/img50x50.jpg',
         price: 270.00,
         stock: 10
       },
@@ -112,7 +112,7 @@ export default DS.Model.extend({
         id: 13,
         name: 'Mid Twist Cut-Out Dress, Pink',
         category: 'Women\'s Formalwear',
-        image: '',
+        image: 'images/img50x50.jpg',
         price: 540.00,
         stock: 5
       }

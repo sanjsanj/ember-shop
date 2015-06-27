@@ -12,14 +12,14 @@ module('Feature tests', {
   }
 });
 
-test('Website', function(assert) {
+test('Website loads properly', function(assert) {
   // assert.expect(3);
   visit('/');
   andThen(function() {
     assert.equal(currentURL(), '', 'Loads');
     assert.equal(find('#title').length, 1, 'With title');
     assert.equal(find('#title').text(), 'Welcome to EmberShop', 'Welcomes user to EmberShop');
-    assert.equal(find('li').length, 13, 'Shows 13 products');
+    assert.equal(find('.itemContainer').length, 13, 'Shows 13 products');
     assert.equal(find('.cartButton').length, 1,'With a shopping cart');
   });
 });

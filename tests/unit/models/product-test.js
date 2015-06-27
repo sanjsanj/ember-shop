@@ -31,3 +31,20 @@ test('has a quantity', function(assert){
   var model = this.subject();
   assert.ok(!!model.stock);
 });
+
+test('has an image', function(assert){
+  var model = this.subject();
+  assert.ok(!!model.image);
+});
+
+test('knows a product is in stock', function(assert){
+  var store = this.store();
+  var model = this.subject({stock: 1});
+  assert.equal(model.get('inStock'), true);
+});
+
+test('knows a product is out of stock', function(assert){
+  var store = this.store();
+  var model = this.subject({stock: 0});
+  assert.equal(model.get('inStock'), false);
+});
