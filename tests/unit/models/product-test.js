@@ -8,8 +8,6 @@ moduleForModel('product', 'Unit | Model | product', {
 test('it exists', function(assert) {
   var model = this.subject();
   var store = this.store();
-  console.log('**************');
-  console.log(model);
   assert.ok(!!model);
   assert.ok(!!store);
 });

@@ -1,3 +1,8 @@
 <li>
-  {{product.name}} {{product.category}} £{{product.price}} {{product.stock}}
+  <img {{bind-attr src=product.image}}> {{product.name}} {{product.category}} £{{product.price}}
+  {{#if product.inStock}}
+    <button class="buyButton">Buy</button>
+  {{else}}
+    <button class="outOfStockButton">Out of stock</button>
+  {{/if}}
 </li>

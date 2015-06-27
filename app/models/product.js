@@ -1,3 +1,4 @@
+import Ember from 'ember';
 import DS from 'ember-data';
 
 export default DS.Model.extend({
@@ -5,14 +6,17 @@ export default DS.Model.extend({
   category: DS.attr('string'),
   image: DS.attr('string'),
   price: DS.attr('number'),
-  stock: DS.attr('number')
+  stock: DS.attr('number'),
+  inStock: Ember.computed('stock', function(){
+    return this.get('stock') > 0;
+  })
 }).reopenClass({
   FIXTURES: [
       {
         id: 1,
         name: 'Almond Toe Court Shoes, Patent Black',
         category: 'Women\'s Footwear',
-        image: '',
+        image: 'images/img50x50.jpg',
         price: 99.00,
         stock: 5
       },
@@ -20,7 +24,7 @@ export default DS.Model.extend({
         id: 2,
         name: 'Suede Shoes, Blue',
         category: 'Women\'s Footwear',
-        image: '',
+        image: 'http://i01.i.aliimg.com/wsphoto/v0/32263007367_1/casual-dress-women-winter-party-dresses-2015-woman-clothes-Blue-Polka-Dot-waist-tight-dress-cheap.jpg_50x50.jpg',
         price: 42.00,
         stock: 4
       },
