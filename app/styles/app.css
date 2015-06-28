@@ -3,10 +3,22 @@ body {
   padding-top: 4em;
 }
 
+.title {
+  position: absolute;
+  top: 0.5em;
+}
+
+.cartButton {
+  position: absolute;
+  right: 1em;
+  top: 0.5em;
+}
+
 .itemContainer {
   position: relative;
   height: 32em;
   margin: 0.5em 0;
+  border-radius: 0.6em;
   background-color: white;
   border: 0.5em solid grey;
   overflow: auto;
