@@ -1,11 +1,20 @@
-{{#each product in model}}
+<div class="container">
+  <div class="row">
 
-  {{product-item product=product}}
+    {{#each product in model}}
 
-  {{#if product.inStock}}
-    <button class="buyButton btn btn-primary" {{action "addToCart" product}}>Buy</button>
-  {{else}}
-    <button class="soldOutButton btn btn-default" disabled>Sold Out</button>
-  {{/if}}
+      <div class="itemContainer col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        {{product-item product=product}}
 
-{{/each}}
+        {{#if product.inStock}}
+          <button class="buyButton btn btn-primary" {{action "addToCart" product}}>Buy</button>
+        {{else}}
+          <button class="soldOutButton btn btn-default" disabled>Sold Out</button>
+        {{/if}}
+        <hr />
+      </div>
+
+    {{/each}}
+
+  </div>
+</div>
