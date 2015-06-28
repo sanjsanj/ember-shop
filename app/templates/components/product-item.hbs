@@ -1,12 +1,6 @@
 <div class="itemContainer">
-  <img {{bind-attr src=product.image alt=product.name}}>
+  <img {{bind-attr src=product.image alt=product.name}} class="img-circle">
   {{product.name}}
   {{product.category}}
   £{{product.price}}
-
-  {{#if product.inStock}}
-    <button class="buyButton">Buy</button>
-  {{else}}
-    <button class="outOfStockButton">Out of stock</button>
-  {{/if}}
 </div>

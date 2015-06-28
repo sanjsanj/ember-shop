@@ -13,7 +13,6 @@ module('Feature tests', {
 });
 
 test('Website loads properly', function(assert) {
-  // assert.expect(3);
   visit('/');
   andThen(function() {
     assert.equal(currentURL(), '', 'Loads');

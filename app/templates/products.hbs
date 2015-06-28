@@ -1,3 +1,11 @@
 {{#each product in model}}
+
   {{product-item product=product}}
+
+  {{#if product.inStock}}
+    <button class="buyButton btn btn-primary" {{action "addToCart" product}}>Buy</button>
+  {{else}}
+    <button class="soldOutButton btn btn-default" disabled>Sold Out</button>
+  {{/if}}
+  
 {{/each}}
