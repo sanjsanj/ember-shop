@@ -21,7 +21,7 @@ module.exports = function(environment) {
       'script-src': "'self'",
       'font-src': "'self' https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/fonts/glyphicons-halflings-regular.woff2 https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/fonts/glyphicons-halflings-regular.ttf https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/fonts/glyphicons-halflings-regular.woff",
       'connect-src': "'self'",
-      'img-src': "'self'",
+      'img-src': "'self' http://www.y555y.com/vb/imgcache/2/39233alsh3er.jpg",
       'report-uri':"'localhost'",
       'style-src': "'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css",
       'frame-src': "'none'"

@@ -3,7 +3,20 @@ body {
 }
 
 .itemContainer {
-  margin: 20px 0;
+  position: relative;
+  height: 35em;
+  margin: 0.5em 0;
   background-color: white;
-  border: 2px solid grey;
+  border: 0.5em solid grey;
+}
+
+img {
+  /*height: 14em;*/
+  width: 100%;
+}
+
+.buyButton, .soldOutButton {
+  position: absolute;
+  width: 40%;
+  bottom: 1em;
 }
