@@ -27,6 +27,13 @@ body {
 
 img {
   width: 100%;
+  /*height: 100%;*/
+}
+
+.productName {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .productName {
@@ -44,7 +51,7 @@ img {
 .productPrice {
   position: absolute;
   left: 1em;
-  bottom: 1em;
+  bottom: 0.75em;
 }
 
 .buyButton, .soldOutButton {
