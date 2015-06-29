@@ -18,7 +18,8 @@ export default DS.Model.extend({
         category: 'Women\'s Footwear',
         image: 'http://www.y555y.com/vb/imgcache/2/39233alsh3er.jpg',
         price: 99.00,
-        stock: 5
+        stock: 5,
+        count: 1
       },
       {
         id: 2,
