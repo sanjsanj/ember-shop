@@ -16,8 +16,8 @@ test('Website loads properly', function(assert) {
   visit('/');
   andThen(function() {
     assert.equal(currentURL(), '', 'Loads');
-    assert.equal(find('#title').length, 1, 'With title');
-    assert.equal(find('#title').text(), 'Welcome to EmberShop', 'Welcomes user to EmberShop');
+    assert.equal(find('.title').length, 1, 'With title');
+    assert.equal(find('.title').text(), 'EmberShop', 'Title is EmberShop');
     assert.equal(find('.itemContainer').length, 13, 'Shows 13 products');
     assert.equal(find('.cartButton').length, 1,'With a shopping cart');
   });

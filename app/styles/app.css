@@ -5,6 +5,7 @@ body {
 
 .title {
   position: absolute;
+  text-decoration: none;
   top: 0.5em;
 }
 
@@ -18,20 +19,32 @@ body {
   position: relative;
   height: 32em;
   margin: 0.5em 0;
-  border-radius: 0.6em;
+  border-radius: 0.7em;
   background-color: white;
   border: 0.5em solid grey;
-  overflow: auto;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+.productName {
+  position: absolute;
+  left: 1em;
+  top: 12em;
+}
+
+.productCategory {
+  position: absolute;
+  left: 2em;
+  bottom: 5em;
 }
 
 .productPrice {
   position: absolute;
   left: 1em;
   bottom: 1em;
-}
-
-img {
-  width: 100%;
 }
 
 .buyButton, .soldOutButton {

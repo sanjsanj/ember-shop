@@ -1,6 +1,6 @@
 <div>
-  <img {{bind-attr src=product.image alt=product.name}}><br />
-  <h3>{{product.name}}</h3><br />
-  {{product.category}}<br />
-  <h3><div class="productPrice">£{{product.price}}</div></h3><br />
+  <img {{bind-attr src=product.image alt=product.name}}>
+  <h3><div class="productName">{{product.name}}</div></h3>
+  <h6><div class="productCategory">{{product.category}}</div></h6>
+  <h3><div class="productPrice">£{{product.price}}</div></h3>
 </div>
