@@ -27,7 +27,8 @@ export default DS.Model.extend({
         category: 'Women\'s Footwear',
         image: 'http://www.y555y.com/vb/imgcache/2/39233alsh3er.jpg',
         price: 42.00,
-        stock: 4
+        stock: 4,
+        count: 1
       },
       {
         id: 3,
@@ -35,7 +36,8 @@ export default DS.Model.extend({
         category: 'Men\'s Footwear',
         image: 'http://www.y555y.com/vb/imgcache/2/39233alsh3er.jpg',
         price: 34.00,
-        stock: 12
+        stock: 12,
+        count: 1
       },
       {
         id: 4,
@@ -43,7 +45,8 @@ export default DS.Model.extend({
         category: 'Men\'s Footwear',
         image: 'http://www.y555y.com/vb/imgcache/2/39233alsh3er.jpg',
         price: 19.00,
-        stock: 6
+        stock: 6,
+        count: 1
       },
       {
         id: 5,
@@ -51,7 +54,8 @@ export default DS.Model.extend({
         category: 'Men\'s Footwear',
         image: 'http://www.y555y.com/vb/imgcache/2/39233alsh3er.jpg',
         price: 19.00,
-        stock: 0
+        stock: 0,
+        count: 1
       },
       {
         id: 6,
@@ -59,7 +63,8 @@ export default DS.Model.extend({
         category: 'Women\'s Casualwear',
         image: 'http://www.y555y.com/vb/imgcache/2/39233alsh3er.jpg',
         price: 167.00,
-        stock: 6
+        stock: 6,
+        count: 1
       },
       {
         id: 7,
@@ -67,7 +72,8 @@ export default DS.Model.extend({
         category: 'Women\'s Casualwear',
         image: 'http://www.y555y.com/vb/imgcache/2/39233alsh3er.jpg',
         price: 30.00,
-        stock: 5
+        stock: 5,
+        count: 1
       },
       {
         id: 8,
@@ -75,7 +81,8 @@ export default DS.Model.extend({
         category: 'Men\'s Casualwear',
         image: 'http://www.y555y.com/vb/imgcache/2/39233alsh3er.jpg',
         price: 49.99,
-        stock: 9
+        stock: 9,
+        count: 1
       },
       {
         id: 9,
@@ -83,7 +90,8 @@ export default DS.Model.extend({
         category: 'Men\'s Casualwear',
         image: 'http://www.y555y.com/vb/imgcache/2/39233alsh3er.jpg',
         price: 39.99,
-        stock: 3
+        stock: 3,
+        count: 1
       },
       {
         id: 10,
@@ -91,7 +99,8 @@ export default DS.Model.extend({
         category: 'Men\'s Formalwear',
         image: 'http://www.y555y.com/vb/imgcache/2/39233alsh3er.jpg',
         price: 75.00,
-        stock: 2
+        stock: 2,
+        count: 1
       },
       {
         id: 11,
@@ -99,7 +108,8 @@ export default DS.Model.extend({
         category: 'Men\'s Formalwear',
         image: 'http://www.y555y.com/vb/imgcache/2/39233alsh3er.jpg',
         price: 175.00,
-        stock: 1
+        stock: 1,
+        count: 1
       },
       {
         id: 12,
@@ -107,7 +117,8 @@ export default DS.Model.extend({
         category: 'Women\'s Formalwear',
         image: 'http://www.y555y.com/vb/imgcache/2/39233alsh3er.jpg',
         price: 270.00,
-        stock: 10
+        stock: 10,
+        count: 1
       },
       {
         id: 13,
@@ -115,7 +126,8 @@ export default DS.Model.extend({
         category: 'Women\'s Formalwear',
         image: 'http://www.y555y.com/vb/imgcache/2/39233alsh3er.jpg',
         price: 540.00,
-        stock: 5
+        stock: 5,
+        count: 1
       }
   ]
 });
