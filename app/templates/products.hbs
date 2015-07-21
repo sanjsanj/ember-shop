@@ -1,18 +1,19 @@
-<div>
-  <div>
+<div class="container-fluid">
+  <div class="row">
 
     {{#each product in model}}
-      <div>
+      <div class="itemContainer col-lg-3 col-md-4 col-sm-6 col-xs-12">
         <div>
 
-          <h3><div>{{product.name}}</div></h3>
-          <h6><div>{{product.category}}</div></h6>
-          <h3><div>£{{product.price}}</div></h3>
+          <img {{bind-attr src=product.image alt=product.name}}>
+          <h3><div class="productName">{{product.name}}</div></h3>
+          <h6><div class="productCategory">{{product.category}}</div></h6>
+          <h3><div class="productPrice">£{{product.price}}</div></h3>
 
           {{#if product.inStock}}
-            <button {{action "addToCart" product}}>Buy</button>
+            <button class="buyButton btn btn-info" {{action "addToCart" product}}>Buy</button>
           {{else}}
-            <button disabled>Sold Out</button>
+            <button class="soldOutButton btn btn-default" disabled>Sold Out</button>
           {{/if}}
 
         </div>
